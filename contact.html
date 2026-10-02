@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Jocelyn</title>
+
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
+
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+
+<body>
+
+<!-- FLOATING CUTE DECORATIONS -->
+<div class="floaties" aria-hidden="true">
+
+    <span class="float-item heart">♡</span>
+    <span class="float-item star">✦</span>
+    <span class="float-item cat">🐱</span>
+    <span class="float-item bow">🎀</span>
+    <span class="float-item heart">♥</span>
+    <span class="float-item star">★</span>
+    <span class="float-item cat">🐾</span>
+    <span class="float-item bow">🎀</span>
+    <span class="float-item heart">♡</span>
+    <span class="float-item star">✧</span>
+    <span class="float-item cat">🐱</span>
+    <span class="float-item heart">♥</span>
+
+</div>
+
+
+
+    <!-- NAVIGATION -->
+
+    <header class="site-header">
+
+        <a href="index.html"
+           class="logo">
+
+            <span class="logo-mark">
+                J
+            </span>
+
+            jo.core<span>.</span>
+
+        </a>
+
+
+        <nav class="nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="about.html">
+                About Me
+            </a>
+
+            <a href="projects.html">
+                Projects
+            </a>
+
+            <a href="contact.html"
+               class="active">
+
+                Contact
+
+            </a>
+
+        </nav>
+
+
+        <button class="menu-btn">
+            ☰
+        </button>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- PAGE INTRO -->
+
+        <section class="page-hero section">
+
+            <p class="eyebrow">
+                LET'S TALK ✦
+            </p>
+
+            <h1>
+                Have something to say?
+            </h1>
+
+            <p>
+                Send me a little message.
+                Let's chat about your ideas, collaborations, or just say hi! I promise to respond as soon as I can. 
+                Please fill out the form below and I'll get back to you
+                
+            </p>
+
+        </section>
+
+
+
+        <!-- CONTACT -->
+
+        <section class="contact-layout section">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <aside class="contact-card">
+
+                <div class="contact-icon">
+                    ♡
+                </div>
+
+
+                <p class="eyebrow">
+                    CONTACT INFORMATION
+                </p>
+
+
+                <h2>
+                    Let's create something cute.
+                </h2>
+
+
+                <p>
+
+                    Whether it's a school collaboration,
+                    design idea, or just a hello,
+                    I'd love to hear from you.
+
+                </p>
+
+
+
+                <div class="contact-detail">
+
+                    <span>
+                        ✉
+                    </span>
+
+                    <div>
+
+                        <small>
+                            EMAIL
+                        </small>
+
+                        <strong>
+                            decastrojb@students.national-u.edu.ph
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-detail">
+
+                    <span>
+                        ⌁
+                    </span>
+
+                    <div>
+
+                        <small>
+                            LOCATION
+                        </small>
+
+                        <strong>
+                            Quezon City, Philippines
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-detail">
+
+                    <span>
+                        ✦
+                    </span>
+
+                    <div>
+
+                        <small>
+                            AVAILABILITY
+                        </small>
+
+                        <strong>
+                            Open to learning & collaborations
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+            </aside>
+
+
+
+            <!-- FORM -->
+
+            <form id="contactForm"
+                  class="contact-form"
+                  novalidate>
+
+
+                <div class="form-title">
+
+                    <p class="eyebrow">
+                        CONTACT FORM
+                    </p>
+
+                    <h2>
+                        Drop me a message 💌
+                    </h2>
+
+                </div>
+
+
+
+                <!-- NAME -->
+
+                <label for="name">
+                    Your name
+                </label>
+
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="e.g. Maria"
+                >
+
+                <small class="error"
+                       id="nameError">
+                </small>
+
+
+
+                <!-- EMAIL -->
+
+                <label for="email">
+                    Email address
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                >
+
+                <small class="error"
+                       id="emailError">
+                </small>
+
+
+
+                <!-- SUBJECT -->
+
+                <label for="subject">
+                    Subject
+                </label>
+
+                <input
+                    id="subject"
+                    name="subject"
+                    type="text"
+                    placeholder="What's on your mind?"
+                >
+
+                <small class="error"
+                       id="subjectError">
+                </small>
+
+
+
+                <!-- MESSAGE -->
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write something nice..."
+                ></textarea>
+
+                <small class="error"
+                       id="messageError">
+                </small>
+
+
+
+                <button
+                    class="btn btn-primary submit-btn"
+                    type="submit">
+
+                    Send message ♡
+
+                </button>
+
+
+                <p id="formStatus"
+                   class="form-status">
+
+                </p>
+
+
+            </form>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer>
+
+        <p>
+            Thanks for stopping by my little website. ♡
+        </p>
+
+        <span>
+            © 2026 Jocelyn De Castro
+        </span>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
